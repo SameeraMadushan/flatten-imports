@@ -1,0 +1,31 @@
+{
+  "name": "flatten-imports",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Codemod for flatten imports",
+  "homepage": "https://github.com/SameeraMadushan/flatten-imports#readme",
+  "bugs": {
+    "url": "https://github.com/SameeraMadushan/flatten-imports/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SameeraMadushan/flatten-imports.git"
+  },
+  "license": "ISC",
+  "author": "Sameera Madushan",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "commander": "^14.0.0",
+    "ts-morph": "^26.0.0",
+    "typescript": "^5.8.3"
+  },
+  "bin": {
+    "flatten-imports": "./dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.3"
+  }
+}
