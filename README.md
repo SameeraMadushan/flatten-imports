@@ -77,7 +77,7 @@ flatten-imports \
 
 ## 🧪 Local Dev Setup
 
-git clone https://github.com/your-username/flatten-imports.git
+git clone https://github.com/sameeramadushan/flatten-imports.git
 cd flatten-imports
 npm install
 npm run build
