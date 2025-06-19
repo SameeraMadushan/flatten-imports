@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // codemod-flatten-imports/src/index.ts
 import { Command } from "commander";
 import { Project } from "ts-morph";

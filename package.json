@@ -1,8 +1,17 @@
 {
   "name": "flatten-imports",
   "version": "1.0.0",
-  "type": "module",
-  "description": "Codemod for flatten imports",
+  "description": "Codemod to flatten barrel imports to direct imports in JS/TS projects",
+  "bin": {
+    "flatten-imports": "./dist/index.js"
+  },
+  "keywords": [
+    "codemod",
+    "nextjs",
+    "typescript",
+    "barrel",
+    "imports"
+  ],
   "homepage": "https://github.com/SameeraMadushan/flatten-imports#readme",
   "bugs": {
     "url": "https://github.com/SameeraMadushan/flatten-imports/issues"
@@ -11,10 +20,11 @@
     "type": "git",
     "url": "git+https://github.com/SameeraMadushan/flatten-imports.git"
   },
-  "license": "ISC",
+  "license": "MIT",
   "author": "Sameera Madushan",
   "main": "src/index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -22,10 +32,10 @@
     "ts-morph": "^26.0.0",
     "typescript": "^5.8.3"
   },
-  "bin": {
-    "flatten-imports": "./dist/index.js"
-  },
   "devDependencies": {
     "@types/node": "^24.0.3"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }
