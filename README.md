@@ -1,3 +1,6 @@
+![npm version](https://img.shields.io/npm/v/flatten-imports)
+![npm downloads](https://img.shields.io/npm/dm/flatten-imports)
+
 # 🪓 flatten-imports
 
 > Codemod CLI to replace named imports from barrel files with direct imports — for faster builds, better dev performance, and leaner codebases.
